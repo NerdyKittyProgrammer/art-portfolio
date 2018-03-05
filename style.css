@@ -78,6 +78,18 @@ img {
    max-width: 60vw;
 }
 
+#youtube-play {
+  color: red;
+}
+
+a {
+  color: white;
+}
+
+#git-hub {
+  color: black;
+}
+
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
 #caption {
    margin: auto;
