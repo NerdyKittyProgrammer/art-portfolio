@@ -8,12 +8,32 @@
   <meta charset="UTF-8">
   <title>Serendipity Art</title>
   <link rel="icon" href="img/icon.png">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 </head>
 
 <body>
-<h1>My Art Portfolio</h1>
+
+  <!-- <div id="sideNavigation" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">Home</a>
+    <a href="#">About Me</a>
+    <a href="#"></a>
+  </div>
+
+  <nav class="topnav">
+    <a href="#" onclick="openNav()">
+      <svg width="30" height="30" id="icoOpen">
+          <path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
+          <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
+          <path d="M0,23 30,23" stroke="#000" stroke-width="5"/>
+      </svg>
+    </a>
+  </nav>
+
+  <div id="main"> -->
+
+    <h1>My Art Portfolio</h1>
 
 <p>By: Lyela Serendipity</p>
 
@@ -23,6 +43,16 @@
   <p>
     I draw a number of different things, but I usually draw portaits or sometimes landscapes. I use all kinds of different mediums for my art such as Copic Markers, Acrilic Paint, Watercolors, and digital art. My artwork will be organized by my oldest at the bottom and my latest at the top.
   </p>
+
+  <div class="caption">
+    <img class="centered myImg" src="img/miguel-coco.png" alt="Drawing of Miguel in the movie Coco" />
+    <div>Name: Miguel from the movie Coco <br /> Medium: Copic Markers <br /> Date: 3/12/18</div>
+  </div>
+
+  <div class="caption">
+    <img class="centered myImg" src="img/girl-purplrsweater.png" alt="Drawing of a Girl in a Purple Sweater" />
+    <div>Name: Girl in a Purple Sweater <br /> Medium: Copic Markers <br /> Date: 3/10/18</div>
+  </div>
 
   <div class="caption">
     <img class="centered myImg" src="img/luke-catwalker.png" alt="Drawing of a Luke Skywalker as a Cat" />
@@ -173,13 +203,23 @@ $('.myImg').click(function(){
     captionText.innerHTML = this.alt;
 });
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
+// // Get the <span> element that closes the modal
+// var span = document.getElementsByClassName("close")[0];
+//
+// // When the user clicks on <span> (x), close the modal
+// span.onclick = function() {
+//   modal.style.display = "none";
+// }
+//
+// function openNav() {
+//     document.getElementById("sideNavigation").style.width = "250px";
+//     document.getElementById("main").style.marginLeft = "250px";
+// }
+//
+// function closeNav() {
+//     document.getElementById("sideNavigation").style.width = "0";
+//     document.getElementById("main").style.marginLeft = "0";
+// }
 </script>
 
 <footer>
@@ -195,6 +235,7 @@ span.onclick = function() {
 &copy; 2018 Serendipity Art, All rights reserved.
 </p>
 
+</div>
 </body>
 
 </html>
