@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" href="img/icon.png">
+  <meta charset="UTF-8">
+  <title>Serendipity Art</title>
+  <link rel="icon" href="img/icon.png">
+</head>
+
+<body>
+
+  <div style="text-align: left;" id="sideNavigation" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="home.html">Home</a>
+    <a href="index.html">Artwork</a>
+    <a href="#"></a>
+  </div>
+
+  <nav class="topnav">
+    <a href="#" onclick="openNav()">
+      <svg width="30" height="30" id="icoOpen">
+          <path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
+          <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
+          <path d="M0,23 30,23" stroke="#000" stroke-width="5"/>
+      </svg>
+    </a>
+  </nav>
+
+  <div id="main">
+
+    <h1>Home Page</h1>
+
+    <p>By: Lyela Serendipity</p>
+
+<p>
+Hello, my name is Lyela Serendipity. Welcome to my website! In this website you will find a little bit more about me and see some of my artwork!
+</p>
+
+<h2>About Me!</h2>
+
+<p>I am 12 years old and I love drawing. I'm pretty nerdy and I have my very own Github Account. I also really like coding specifcly in html but when making this website I used quite a bit of different languages. In this website you will be able to find out a little more about me and see some of my artwork!</p>
+
+    <script>
+      function openNav() {
+        document.getElementById("sideNavigation").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("sideNavigation").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+      }
+    </script>
+
+    <!-- <footer>
+    <img style="float: left; margin-left: 10%; margin-bottom: 5%;" class="centered myImg" src="img/logo5.png" alt="Logo" />
+
+    <p style="float: left; margin-left: 2%; text-align: left; margin-top: 2%;">
+    <i style="color: red;" class="fa fa-youtube-play"></i> <a style="color: white;" href="https://www.youtube.com/channel/UCd8rYD8fTziiAdknnVe99gg?disable_polymer=true" target="_blank">Check out my YouTube Channel!</a> <br /> <br />
+    <i style="color: black;" class="fa fa-github"></i> <a style="color: white;" href="https://github.com/NerdyKittyProgrammer" target="_blank"> Check out my GitHub!</a>
+    </p>
+    </footer>
+
+    <p style="float: left; margin-left: 20%;">
+    &copy; 2018 Serendipity Art, All rights reserved.
+    </p> -->
+
+</body>
