@@ -3,12 +3,12 @@ h1 {
   font-size: 45px;
   color: white;
   margin: 5px;
-  background-color: black;
+  background-color: #111;
 }
 
 body {
   text-align: center;
-  background-color: #111;
+  background-color: #646565;
   font-family: sans-serif;
 }
 
