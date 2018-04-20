@@ -33,6 +33,11 @@ p {
   margin-right: 15%;
 }
 
+.pic-margin {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
 .caption {
   font-size: 20px;
   color: lightgrey;
