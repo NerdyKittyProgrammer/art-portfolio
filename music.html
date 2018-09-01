@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <title>Serendipity Art</title>
+  <link rel="icon" href="img/profile-pic-6.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+<div class="text">
+
+  <div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="drawings.html">My Drawings</a>
+  <a class="active" href="music.html">My Music</a>
+</div>
+
+  <div class="header">
+  </div>
+
+  <h2>Introduction</h2>
+
+  <p style="margin-top: 50px;">
+    I only recently learned how to play the ukulele by watching YouTube and I really enjoy it. But I have been playing piano for about four years.
+    I really like musicals so a lot of the things I want to learn are from musicals. I also really want to start writing my
+    own songs. <br /> Hope you like it!
+  </p>
+
+
+
+
+
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/3894C2AB8xA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <p>Click the download button to download chord sheet.</p>
+  <a href="img/thewayIdo-chordsheet.pdf" download>
+    <button class="btn"><i class="fa fa-download"></i> Download</button>
+  </a>
+
+
+
+
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- The Close Button -->
+    <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+    <!-- Modal Content (The Image) -->
+    <img class="modal-content" id="img01">
+
+    <!-- Modal Caption (Image Text) -->
+    <div id="caption"></div>
+  </div>
+
+  <script>
+    // Get the modal
+    var modal = document.getElementById('myModal');
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = $('.myImg');
+    var modalImg = $("#img01");
+    var captionText = document.getElementById("caption");
+    $('.myImg').click(function() {
+      modal.style.display = "block";
+      var newSrc = this.src;
+      modalImg.attr('src', newSrc);
+      captionText.innerHTML = this.alt;
+    });
+
+
+  </script>
+
+
+  <footer>
+    <img style="float: left; margin-left: 10%; margin-bottom: 5%;" src="img/profile-pic-6.png" alt="Logo" />
+
+    <p style="float: left; margin-left: 2%; text-align: left; margin-top: 2%;">
+      <a style="color: white;" href="https://www.youtube.com/channel/UCd8rYD8fTziiAdknnVe99gg?disable_polymer=true" target="_blank"><br /> <br />Check out my YouTube Channel!</a> <br /> <br />
+      <a style="color: white;" href="https://github.com/NerdyKittyProgrammer" target="_blank"> Check out my GitHub!</a>
+    </p>
+  </footer>
+
+  <p style="float: left; margin-left: 20%;">
+    &copy; 2018 Serendipity Art, All rights reserved.
+  </p>
+
+  </div>
+</div>
+</body>
+
+</html>
