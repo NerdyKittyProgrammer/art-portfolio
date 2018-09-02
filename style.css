@@ -12,6 +12,14 @@ h1 {
   text-align: center;
 }
 
+.header2 {
+  background-color: #111;
+  position: absolute;
+  background-size: 100%;
+  left: 0;
+  right: 0;
+}
+
 .header {
   background-color: #111;
   position: ;
@@ -86,6 +94,14 @@ img {
 }
 
 .myImg:hover {
+  opacity: 0.7;
+}
+
+.myImg2 {
+  border-radius: 5px;
+}
+
+.myImg2:hover {
   opacity: 0.7;
 }
 
@@ -385,4 +401,21 @@ a svg{
 .topnav a.active {
     background-color: #131313;
     color: white;
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
