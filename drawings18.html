@@ -8,6 +8,7 @@
   <title>Serendipity Art</title>
   <link rel="icon" href="img/profile-pic-6.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
 </head>
 
 <body>
@@ -16,22 +17,67 @@
 
   <div class="text">
 
-    <div class="topnav">
-    <a href="index.html">Home</a>
-    <a class="active" href="drawings.html">My Drawings</a>
-    <a href="music.html">My Music</a>
+    <div class="navbar">
+  <a href="index.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Drawings
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="drawings18.html">2018</a>
+      <a href="drawings17.html">2017</a>
+    </div>
   </div>
+  <a href="music.html">My Music</a>
+</div>
 
-  <h2>Introduction</h2>
+<div class="main">
+  <h1>Introduction</h1>
 
-  <p style="margin-top: 50px;">
+  <p style="margin-top: 50px; font-size: 25px;">
     I draw a number of different things, but I usually draw portaits or sometimes landscapes. I use all kinds of different mediums for my art such as Copic markers, acrylic paint, watercolors, and digital art. My drawings will be organized by my oldest at
     the bottom and my latest at the top. <br /> Hope you like it!
   </p>
   <h2>2018</h2>
+
+  <div class="caption pic-margin">
+    <img class="centered myImg" src="img/moon-cloudy-day.jpg" alt="Drawing of a Moon on a Cloudy Day"  />
+    <div>Name: Moon on a Cloudy Day <br /> Medium: Acrylic Paint <br /> Date: 12/16/18</div>
+  </div>
+
+  <div class="caption pic-margin">
+    <img class="centered myImg" src="img/mountain.jpg" alt="Drawing of a Mountain on a Cloudy Day"  />
+    <div>Name: Mountain on a Cloudy Day <br /> Medium: Acrylic Paint <br /> Date: 12/14/18</div>
+  </div>
+
+  <div class="caption pic-margin">
+    <img class="centered myImg" src="img/girl-w-scarf-doodle.jpg" alt="Drawing of a Girl with a Scarf"  />
+    <div>Name: Girl with Scarf Doodle <br /> Medium: Copic Markers <br /> Date: 9/8/18</div>
+  </div>
+
+  <div class="caption pic-margin">
+    <img class="centered myImg" src="img/girl-w-sunflower-in-hair.jpg" alt="Drawing of a Girl with a Yellow Flower in Her Hair"  />
+    <div>Name: Girl with a Yellow Flower in Her Hair <br /> Medium: Acrylic Paint <br /> Date: 8/13/18</div>
+  </div>
+
+  <div class="caption pic-margin">
+    <img class="centered myImg" src="img/witch.jpg" alt="Drawing of an Elvish Witch"  />
+    <div>Name: Elvish Witch <br /> Medium: Copic Markers <br /> Date: 8/10/18</div>
+  </div>
+
   <div class="caption pic-margin">
     <img class="centered myImg" src="img/newt-scamander.png" alt="Drawing of Newt Scamander (Fantastic Beasts)"  />
     <div>Name: Newt Scamander <br /> Medium: Digital <br /> Date: 7/24/18</div>
+  </div>
+
+  <div class="caption pic-margin">
+    <img class="centered myImg" src="img/girl-w-long-hair.jpg" alt="Drawing of a Girl With Long Hair"  />
+    <div>Name: Girl With Long Hair <br /> Medium: Copic Markers <br /> Date: 7/17/18</div>
+  </div>
+
+  <div class="caption pic-margin">
+    <img class="centered myImg" src="img/moon-painting.jpg" alt=" Drawing of a Black and White Moon"  />
+    <div>Name: Black and White Moon <br /> Medium: Acrylic Paint <br /> Date: 7/19/18</div>
   </div>
 
   <div class="caption pic-margin">
@@ -232,45 +278,6 @@
     <div>Name: Trees and a Night Sky <br /> Medium: Acrylic Paint <br /> Date: 1/1/18</div>
   </div>
 
-  <h2>2017</h2>
-
-  <div class="caption pic-margin">
-    <img class="centered myImg" src="img/eleven2.png" alt="Drawing of Eleven (Stranger Things)" />
-    <div>Name: Eleven <br /> Medium: Copic Markers <br /> Date: 12/26/17</div>
-  </div>
-
-  <div class="caption pic-margin">
-    <img class="centered myImg" src="img/lucas.png" alt="Drawing of Lucas (Stranger Things)" />
-    <div>Name: Lucas <br /> Medium: Copic Markers <br /> Date: 12/25/17</div>
-  </div>
-
-  <div class="caption pic-margin">
-    <img class="centered myImg" src="img/dustin.png" alt="Drawing of Dustin (Stranger Things)" />
-    <div>Name: Dustin <br /> Medium: Copic Markers <br /> Date: 12/19/17</div>
-  </div>
-
-  <div class="caption pic-margin">
-    <img class="centered myImg" src="img/mike2.png" alt="Drawing of Mike with Walkie Talkie (Stranger Things)" />
-    <div>Name: Mike <br /> Medium: Copic Markers <br /> Date: 12/16/17</div>
-  </div>
-
-  <div class="caption pic-margin">
-    <img class="centered myImg" src="img/barb.png" alt="Drawing of Barb (Stranger Things)" />
-    <div>Name: Barb <br /> Medium: Copic Markers <br /> Date: 12/10/17</div>
-  </div>
-
-  <div class="caption pic-margin">
-    <img class="centered myImg" src="img/eleven1.png" alt="Drawing of Eleven (Stranger Things)" />
-    <div>Name: Eleven <br /> Medium: Copic Markers <br /> Date: 12/10/17</div>
-  </div>
-
-  <div class="caption pic-margin">
-    <img class="centered myImg" src="img/mike1.png" alt="Drawing of Mike Wheeler (Stranger Things)" />
-    <div>Name: Mike <br /> Medium: Copic Markers <br /> Date: 12/10/17</div>
-  </div>
-
-
-
   <!-- The Modal -->
   <div id="myModal" class="modal">
 
@@ -305,16 +312,17 @@
     <img style="float: left; margin-left: 10%; margin-bottom: 5%;" src="img/profile-pic-6.png" alt="Logo" />
 
     <p style="float: left; margin-left: 2%; text-align: left; margin-top: 2%;">
-      <a style="color: white;" href="https://www.youtube.com/channel/UCd8rYD8fTziiAdknnVe99gg?disable_polymer=true" target="_blank"><br /> <br />Check out my YouTube Channel!</a> <br /> <br />
-      <a style="color: white;" href="https://github.com/NerdyKittyProgrammer" target="_blank"> Check out my GitHub!</a>
+      <a style="color: white; font-size: 30px;" href="https://www.youtube.com/channel/UCd8rYD8fTziiAdknnVe99gg?disable_polymer=true" target="_blank"><br /> <br />Check out my YouTube Channel!</a> <br /> <br />
+      <a style="color: white; font-size: 30px;" href="https://github.com/NerdyKittyProgrammer" target="_blank"> Check out my GitHub!</a>
     </p>
   </footer>
 
-  <p style="float: left; margin-left: 20%;">
+  <p style="float: left; margin-left: 20%; font-size: 30px;">
     &copy; 2018 Serendipity Art, All rights reserved.
   </p>
 
   </div>
+</div>
 </div>
 </body>
 
