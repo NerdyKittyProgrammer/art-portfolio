@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <title>Serendipity Art</title>
+  <link rel="icon" href="img/profile-pic-6.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+<div class="text">
+
+  <div class="text">
+
+    <div class="navbar">
+  <a href="index.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Drawings
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="drawings19.html">2019</a>
+      <a href="drawings18.html">2018</a>
+      <a href="drawings17.html">2017</a>
+    </div>
+  </div>
+  <a href="music.html">My Music</a>
+</div>
+
+  <h1>Introduction</h1>
+
+  <p style="margin-top: 50px; font-size: 25px;">
+  This is my drawing progress from 2019. After a year with the mindset of getting better at drawing I feel like I still want to improve but I won't think of it as a
+  journey but more of something I like to do as a hobby. I still love drawing so much and I never want to stop but I just am thinking about the fun I have in it more
+  than wanting to get really good.
+   Anyway here are some of my drawings from 2019, they will be organized by my oldest at the bottom and my latest at the top. Enjoy!
+  </p>
+
+  <h2>2019</h2>
+
+  <div class="caption pic-margin">
+    <img class="centered myImg" src="img/me2019.png" alt="Drawing of me in 2019"  />
+    <div>Name: Drawing of Me (2019) <br /> Medium: Acrylic Paint <br /> Date: 12/16/18</div>
+  </div>
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- The Close Button -->
+    <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+    <!-- Modal Content (The Image) -->
+    <img class="modal-content" id="img01">
+
+    <!-- Modal Caption (Image Text) -->
+    <div id="caption"></div>
+  </div>
+
+  <script>
+    // Get the modal
+    var modal = document.getElementById('myModal');
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = $('.myImg');
+    var modalImg = $("#img01");
+    var captionText = document.getElementById("caption");
+    $('.myImg').click(function() {
+      modal.style.display = "block";
+      var newSrc = this.src;
+      modalImg.attr('src', newSrc);
+      captionText.innerHTML = this.alt;
+    });
+  </script>
+
+
+
+  <footer>
+    <img style="float: left; margin-left: 10%; margin-bottom: 5%;" src="img/profile-pic-6.png" alt="Logo" />
+
+    <p style="float: left; margin-left: 2%; text-align: left; margin-top: 2%;">
+      <a style="color: white; font-size: 30px;" href="https://www.youtube.com/channel/UCd8rYD8fTziiAdknnVe99gg?disable_polymer=true" target="_blank"><br /> <br />Check out my YouTube Channel!</a> <br /> <br />
+      <a style="color: white; font-size: 30px;" href="https://github.com/NerdyKittyProgrammer" target="_blank"> Check out my GitHub!</a>
+    </p>
+  </footer>
+
+  <p style="float: left; margin-left: 20%; font-size: 30px;">
+    &copy; 2018 Serendipity Art, All rights reserved.
+  </p>
+
+  </div>
+</div>
+</body>
+
+</html>
